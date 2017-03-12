@@ -9,7 +9,7 @@
     "dev-server": "./node_modules/.bin/webpack-dev-server --output-public-path=/dist/"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alvaro Silva",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.23.0",
