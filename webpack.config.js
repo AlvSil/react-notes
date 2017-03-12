@@ -1,18 +1,18 @@
 module.exports = {
 	entry: __dirname + '/src/app.js',
-		output: {
-    		path: __dirname + '/dist',
-    		filename: 'bundle.js'
-  		},
+	output: {
+		path: __dirname + '/dist',
+		filename: 'bundle.js'
+	},
   	resolve: {
     	extensions: ['.js', '.jsx']
   	},
   	module: {
     	loaders: [
       	{
-        	test: /\.jsx?$/,
+        	test: /\.js$|\.jsx$/,
         	loader: 'babel-loader',
-        	exclude: /node_modules/,
+        	exclude: /node_modules/
       	}
     	]
   	}
